@@ -4,8 +4,8 @@ from textwrap import dedent
 from dataclasses import dataclass
 from typing import Callable, Any, Dict
 
-from main import RecordMeta, Record
-
+# from main import RecordMeta, Record
+from reorganised import RecordMeta, Record
 
 @dataclass
 class Field:
